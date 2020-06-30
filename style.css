@@ -1,4 +1,48 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.arena {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-column-gap: 1em;
+}
+
+/* Team */
+#heroes {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  padding: 50px;
+}
+#villains {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  margin: 30px 0;
+}
+#score {
+  font-size: 3em;
+  text-align: center;
+  padding: 80px;
+}
+p {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 5px;
+}
+
+article {
+  height: 290px;
+  width: 150px;
+  border: 1px solid grey;
+  border-radius: 10%;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+}
+img {
+  align-items: center;
+  padding: 10px;
+}
+
+.footer {
+  /*margin-left: 80px;*/
+  /*font-size: 18px;*/
 }
