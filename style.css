@@ -5,44 +5,41 @@
 }
 
 /* Team */
-#heroes {
+
+.team {
   display: flex;
-  justify-content: space-around;
-  margin: 30px 0;
-  padding: 50px;
+  flex-wrap: wrap;
 }
-#villains {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px;
-  margin: 30px 0;
+.team#heroes {
+  justify-content: flex-end;
+}
+
+.hero_villain {
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 100px;
+}
+
+.hero_villain > img {
+  width: 100%;
+  height: auto;
+}
+
+.players > .name {
+  font-size: 1em;
+}
+
+.hero_villain > .scores {
+  font-size: 3em;
 }
 #score {
   font-size: 3em;
   text-align: center;
-  padding: 80px;
 }
-p {
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 20px;
-  padding: 0 5px;
-}
-
-article {
-  height: 290px;
-  width: 150px;
-  border: 1px solid grey;
-  border-radius: 10%;
-  text-align: center;
-  box-shadow: 10px 10px 5px grey;
-}
-img {
-  align-items: center;
-  padding: 10px;
-}
-
 .footer {
-  /*margin-left: 80px;*/
-  /*font-size: 18px;*/
+  margin-left: 80px;
+  font-size: 18px;
 }
